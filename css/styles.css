@@ -158,7 +158,14 @@ footer{
   margin:10px 10px;
 }
 /* Media queries */
-
+@media screen and (max-width:576px){
+  #pricing {
+    padding: 60px;
+  }
+.pricing-column {
+  padding: 5% 1%;
+}
+}
 @media (max-width:992px){
   .title-image{
     position:static;
@@ -172,6 +179,4 @@ footer{
   #title{
     text-align: center;
   }
- 
-  
 }
